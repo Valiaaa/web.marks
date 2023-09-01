@@ -46,6 +46,8 @@ body {
 
 a {
     text-decoration: none;
+    color: var(--txt);
+    cursor: url('pointer.png') 15 0,auto;
 }
 
 /*Scroll Bar*/
