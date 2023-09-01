@@ -405,3 +405,33 @@ img {
         height: 48vw;
     }
 }
+
+@media screen and (max-width: 760px) {
+    :root {
+        --marginright: 20px;
+    }
+
+    h1 {
+        margin-left: -52px;
+    }
+
+    .head, .frame, h3, h4 {
+        width: calc(98vw - 48px);
+    }
+
+    #left {
+        right: 56.5px;
+    }
+
+    #right {
+        right: 35.5px;
+    }
+
+    #line {
+        right: 60.5px;
+    }
+
+    .menuline {
+        right: 38px;
+    }
+}
